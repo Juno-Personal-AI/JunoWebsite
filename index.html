@@ -633,6 +633,15 @@
       gap: 12px;
       flex-wrap: wrap;
     }
+    .sponsor-email {
+      color: var(--text);
+      border-bottom: 1px solid var(--line-strong);
+      transition: border-color 0.2s ease, color 0.2s ease;
+    }
+    .sponsor-email:hover {
+      color: var(--accent-hover);
+      border-bottom-color: var(--accent);
+    }
 
     /* ---------- Footer ---------- */
     footer {
@@ -1018,11 +1027,11 @@
           Juno is a solo project. Hardware — Jetsons, testing devices — costs money, and serious development takes time. Sponsorship funds continued work: more skills, better local models, a polished macOS companion.
         </p>
         <p class="reveal">
-          If this is the kind of software you want to exist, backing it helps keep it moving. Any amount is genuinely appreciated.
+          If you're interested in donating or sponsoring the project, please reach out at <a href="mailto:juno@alexbiche.me" class="sponsor-email">juno@alexbiche.me</a>.
         </p>
         <div class="sponsor-ctas reveal">
-          <a class="btn btn-primary" href="https://github.com/sponsors/Juno-Personal-AI" target="_blank" rel="noopener">
-            Sponsor on GitHub
+          <a class="btn btn-primary" href="mailto:juno@alexbiche.me">
+            Get in touch
           </a>
           <a class="btn btn-ghost" href="https://github.com/Juno-Personal-AI/Juno" target="_blank" rel="noopener">Or just star the repo →</a>
         </div>
